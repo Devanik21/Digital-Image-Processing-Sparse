@@ -1,0 +1,9 @@
+# Default configuration for Sparse Image Processing Pipeline
+dictionary:
+  n_components: 256
+  patch_size: 8
+  max_iter: 20
+
+recovery:
+  method: omp
+  sparsity_level: 5
